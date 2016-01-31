@@ -1,0 +1,9 @@
+package packa;
+
+import org.testng.annotations.Test;
+
+public class AccTestQA {
+  @Test
+  public void f() {
+  }
+}

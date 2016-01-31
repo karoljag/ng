@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7071" started-at="2016-01-31T16:16:40Z" finished-at="2016-01-31T16:16:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7071" started-at="2016-01-31T16:16:40Z" finished-at="2016-01-31T16:16:47Z">
+      <class name="packa.AccTestQA">
+        <test-method status="PASS" signature="logAM()[pri:0, instance:packa.AccTestQA@178efba]" name="logAM" duration-ms="2502" started-at="2016-01-31T17:16:40Z" finished-at="2016-01-31T17:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logAM -->
+        <test-method status="PASS" signature="management()[pri:0, instance:packa.AccTestQA@178efba]" name="management" duration-ms="2507" started-at="2016-01-31T17:16:43Z" finished-at="2016-01-31T17:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- management -->
+        <test-method status="PASS" signature="management1()[pri:0, instance:packa.AccTestQA@178efba]" name="management1" duration-ms="42" started-at="2016-01-31T17:16:45Z" finished-at="2016-01-31T17:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- management1 -->
+        <test-method status="PASS" signature="managementLogout()[pri:0, instance:packa.AccTestQA@178efba]" name="managementLogout" duration-ms="1988" started-at="2016-01-31T17:16:45Z" finished-at="2016-01-31T17:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managementLogout -->
+      </class> <!-- packa.AccTestQA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

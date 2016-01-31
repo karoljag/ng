@@ -1,0 +1,13 @@
+package packa;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+public class AccTestQA {
+  @Test
+  public void f() {
+  }
+}

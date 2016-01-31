@@ -1,0 +1,62 @@
+package firsttestngpackage;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
+public class FirstTestNGFile {
+	WebDriver driver = new FirefoxDriver();
+    String baseUrl = "http://newtours.demoaut.com";
+    int x = 1;
+  @BeforeTest
+  public void OdpalFF(){
+	  driver.get(baseUrl);
+	  
+  }
+    
+  
+  @BeforeMethod
+  public void kazdy(){
+	  
+	  System.out.println("XXXXXXXXXX"+ x+1);
+	  Assert.assertEquals(1, 1);
+  }
+  
+  
+  
+	
+	
+  @Test
+  public void a() {
+	 
+	  String expectedTitle = "Welcome: Mercury Tours";
+	  String actualTitle = driver.getTitle();
+	  Assert.assertEquals(actualTitle, expectedTitle);	 
+	  	  
+  }
+  
+ @Test
+  public void b() {
+	  String expectedTitle = "Welcome: Mercury Tours";
+	  String actualTitle = driver.getTitle();
+	  Assert.assertEquals(actualTitle, expectedTitle);	 
+		  
+  }
+  
+  @Test
+  public void c() {
+	  String expectedTitle = "Welcome: Mercury Tours";
+	  String actualTitle = driver.getTitle();
+	  Assert.assertEquals(actualTitle, expectedTitle);	 
+	  driver.quit();	  
+  }
+  
+  
+  @AfterTest
+  public void TerminateBrowser(){
+	  driver.quit();
+	  
+  }   
+}

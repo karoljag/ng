@@ -1,0 +1,9 @@
+package packac;
+
+import org.testng.annotations.Test;
+
+public class AccTestNG {
+  @Test
+  public void f() {
+  }
+}

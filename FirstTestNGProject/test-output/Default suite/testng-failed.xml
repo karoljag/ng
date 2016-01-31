@@ -6,4 +6,16 @@
       <class name="firsttestngpackage.FirstTestNGFile"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="firsttestngpackage.FirstTestNGFile">
+        <methods>
+          <include name="c"/>
+          <include name="OdpalFF"/>
+          <include name="TerminateBrowser"/>
+          <include name="kazdy"/>
+        </methods>
+      </class> <!-- firsttestngpackage.FirstTestNGFile -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
